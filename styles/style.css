@@ -56,7 +56,7 @@
 
 p {
   transform: translateX(100%);
-  animation: text-roller 12s linear infinite;
+  animation: text-roller 15s linear infinite;
 }
 
 @keyframes text-roller {
