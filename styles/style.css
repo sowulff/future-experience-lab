@@ -103,18 +103,27 @@
 
 /* ABOUT */
 .about {
-  height: 100vh;
-  background-color: lightgray;
+  height: 80vh;
+  background-color: #dadada;
 }
-.mobile-eyes {
+.mobile-eyes,
+.mobile-hands {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
+}
+
+.hands-container {
+  width: 100vw;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .about-box {
   padding: 3rem 1rem;
-  margin: 2rem 1rem;
-  background-color: rgb(161, 161, 161);
+  margin: 3rem 1rem;
+  background-color: #c4c4c4;
 }
 .link-to-lab {
   display: flex;
@@ -131,18 +140,76 @@
   text-align: center;
 }
 
+.yellow-cube {
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+}
+
+.pink-cube {
+  position: absolute;
+  left: 100px;
+  top: 1465px;
+}
+
 /* SOCIALS  */
 
+.social-intro {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5rem 1rem 2rem 1rem;
+}
+
 .social-page {
-  height: 100vh;
+  height: 80vh;
   background-color: white;
 }
 .socials {
-  height: 50%;
+  height: 70%;
   background-color: lightgray;
-  margin: 5rem 1rem;
+  margin: 2rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c4c4;
+  padding: 2.5rem;
+  height: 80vh;
+}
+
+.contact {
+  padding: 0.5rem 2rem;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 4rem;
+}
+
+.contact-box,
+.adress {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.adress {
+  margin-top: 4rem;
+}
+
+.copyright {
+  margin-top: 6rem;
 }
