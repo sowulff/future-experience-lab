@@ -54,7 +54,7 @@
   align-items: center;
 }
 
-p {
+.roller p {
   transform: translateX(100%);
   animation: text-roller 15s linear infinite;
 }
@@ -66,4 +66,67 @@ p {
   100% {
     transform: translateX(-100%);
   }
+}
+
+/* WELCOME PAGE  */
+
+.welcome-page {
+  height: 85vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.hero {
+  height: 40%;
+  width: 65%;
+  background-color: lightgray;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.welcome-text {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.welcome-page p {
+  padding: 2rem;
+}
+.move-down {
+  background: none;
+  border: none;
+}
+
+/* ABOUT */
+.about {
+  height: 100vh;
+  background-color: lightgray;
+}
+.mobile-eyes {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.about-box {
+  padding: 3rem 1rem;
+  margin: 2rem 1rem;
+  background-color: rgb(161, 161, 161);
+}
+.link-to-lab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.link-to-lab a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 1rem 0;
+  width: 55%;
+  text-align: center;
 }
