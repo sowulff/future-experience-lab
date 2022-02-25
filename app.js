@@ -4,15 +4,18 @@ hamburger.addEventListener("click", () => {
   navItems.classList.toggle("open");
 });
 
-// CHANGE POSITION OF EYE
+// CHANGE POSITION OF MENU-EYE
 var loc = window.location.pathname;
 console.log(loc);
-
-var navHome = document.querySelector(".nav-item-home");
-var navOngoing = document.querySelector(".nav-item-ongoing");
-var navUpcoming = document.querySelector(".nav-item-upcoming");
-var navContact = document.querySelector(".nav-item-contact");
+var navEye = document.querySelector(".nav-eye");
 
 if (loc.indexOf("ongoing") > -1) {
-  console.log("ongoing");
+  navEye.classList.add("ongoing");
+}
+if (loc.indexOf("upcoming") > -1) {
+  navEye.classList.add("upcoming");
+}
+// #contact will not show in url so its not working
+if (loc.indexOf("#contact") > -1) {
+  navEye.classList.add("nav-contact");
 }
