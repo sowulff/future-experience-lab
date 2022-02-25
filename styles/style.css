@@ -71,7 +71,7 @@
 /* WELCOME PAGE  */
 
 .welcome-page {
-  height: 85vh;
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -171,7 +171,7 @@
 .pink-cube {
   position: absolute;
   left: 100px;
-  top: 1465px;
+  top: 2150px;
 }
 
 /* EYES STYLING */
@@ -259,4 +259,8 @@ footer {
 
 .copyright {
   margin-top: 6rem;
+}
+
+canvas {
+  width: 100vw;
 }
