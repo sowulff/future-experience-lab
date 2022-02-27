@@ -1,0 +1,14 @@
+@media screen and (min-width: 700px) {
+  .social-page {
+    height: 100vh;
+  }
+  .socials {
+    width: 50%;
+    height: 70%;
+  }
+  .social-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
