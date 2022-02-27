@@ -127,6 +127,10 @@
   margin: 2rem 0;
 }
 
+.video img {
+  width: 100vw;
+}
+
 .social-page {
   height: 860px;
 }
