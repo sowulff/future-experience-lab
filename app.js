@@ -11,20 +11,20 @@ menuButtonDesktop.addEventListener("click", () => {
 });
 
 // CHANGE POSITION OF MENU-EYE
-var loc = window.location.pathname;
-console.log(loc);
-var navEye = document.querySelector(".nav-eye");
+// var loc = window.location.pathname;
+// console.log(loc);
+// var navEye = document.querySelector(".nav-eye");
 
-if (loc.indexOf("ongoing") > -1) {
-  navEye.classList.add("ongoing");
-}
-if (loc.indexOf("upcoming") > -1) {
-  navEye.classList.add("upcoming");
-}
+// if (loc.indexOf("ongoing") > -1) {
+//   navEye.classList.add("ongoing");
+// }
+// if (loc.indexOf("upcoming") > -1) {
+//   navEye.classList.add("upcoming");
+// }
 // #contact will not show in url so its not working
-if (loc.indexOf("#contact") > -1) {
-  navEye.classList.add("nav-contact");
-}
+// if (loc.indexOf("#contact") > -1) {
+//   navEye.classList.add("nav-contact");
+// }
 
 // GET EYES TO ROLL
 
