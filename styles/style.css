@@ -273,6 +273,7 @@ footer h4 {
 .copyright p {
   font-family: "Red Hat Mono";
   font-size: var(--p-small);
+  color: var(--main-color);
 }
 
 canvas {
