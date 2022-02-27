@@ -68,7 +68,7 @@
 .roller {
   overflow: hidden;
   position: relative;
-  background-color: #222;
+  background-color: var(--main-color);
   color: #fff;
   white-space: nowrap;
   height: 3rem;
