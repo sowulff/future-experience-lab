@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="331" height="45" fill="none" xmlns:v="https://vecta.io/nano"><g fill="#929292"><rect width="24" height="45" rx="12"/><rect x="260" width="24" height="45" rx="12"/><rect x="24" width="24" height="45" rx="12"/><rect x="284" width="23" height="45" rx="11.5"/><rect x="48" width="24" height="45" rx="12"/><rect x="307" width="24" height="45" rx="12"/></g><g fill="#c4c4c4"><use xlink:href="#B"/><use xlink:href="#B" x="260"/><use xlink:href="#B" x="24"/><use xlink:href="#B" x="284"/><use xlink:href="#B" x="48"/><use xlink:href="#B" x="308"/></g><defs ><path id="B" d="M4 31a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v4a8 8 0 1 1-16 0v-4z"/></defs></svg>
+<svg width="331" height="45" viewBox="0 0 331 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="45" rx="12" fill="#FFADFF"/>
+<rect x="260" width="24" height="45" rx="12" fill="#FFADFF"/>
+<rect x="24" width="24" height="45" rx="12" fill="#FFADFF"/>
+<rect x="284" width="23" height="45" rx="11.5" fill="#FFADFF"/>
+<rect x="48" width="24" height="45" rx="12" fill="#FFADFF"/>
+<rect x="307" width="24" height="45" rx="12" fill="#FFADFF"/>
+<path d="M4 31C4 28.7909 5.79086 27 8 27H16C18.2091 27 20 28.7909 20 31V35C20 39.4183 16.4183 43 12 43C7.58172 43 4 39.4183 4 35V31Z" fill="#4558FF"/>
+<path d="M264 31C264 28.7909 265.791 27 268 27H276C278.209 27 280 28.7909 280 31V35C280 39.4183 276.418 43 272 43C267.582 43 264 39.4183 264 35V31Z" fill="#4558FF"/>
+<path d="M28 31C28 28.7909 29.7909 27 32 27H40C42.2091 27 44 28.7909 44 31V35C44 39.4183 40.4183 43 36 43C31.5817 43 28 39.4183 28 35V31Z" fill="#4558FF"/>
+<path d="M288 31C288 28.7909 289.791 27 292 27H300C302.209 27 304 28.7909 304 31V35C304 39.4183 300.418 43 296 43C291.582 43 288 39.4183 288 35V31Z" fill="#4558FF"/>
+<path d="M52 31C52 28.7909 53.7909 27 56 27H64C66.2091 27 68 28.7909 68 31V35C68 39.4183 64.4183 43 60 43C55.5817 43 52 39.4183 52 35V31Z" fill="#4558FF"/>
+<path d="M312 31C312 28.7909 313.791 27 316 27H324C326.209 27 328 28.7909 328 31V35C328 39.4183 324.418 43 320 43C315.582 43 312 39.4183 312 35V31Z" fill="#4558FF"/>
+</svg>

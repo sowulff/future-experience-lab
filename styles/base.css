@@ -1,11 +1,23 @@
-/* FONTER */
+/* FONTS */
+
+@font-face {
+  font-family: "Red Hat Mono";
+  src: url(/fonts/RedHatMono-Regular.woff2);
+}
 
 /* COLORS */
-/* :root {
-    
-} */
+:root {
+  --navbar-color: #ffadff;
+  --black: #000;
+  --main-color: #4558ff;
+  --footer-color: #e97724;
+  --menu-color: #defa77;
+}
 
 /* FONT-SIZES */
-/* :root {
-    
-} */
+:root {
+  --h1: 42px;
+  --h2: 36px;
+  --link: 24px;
+  --p: 18px;
+}

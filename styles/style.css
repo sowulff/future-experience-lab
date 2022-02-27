@@ -5,26 +5,38 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 .hero {
-  height: 40%;
-  width: 65%;
-  background-color: lightgray;
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+}
+
+.splash-container {
+  position: relative;
+  text-align: center;
+}
+
+.picture-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: aliceblue;
+  position: absolute;
 }
 
 .welcome-text {
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 2rem;
+  font-size: var(--h1);
 }
 .welcome-page p {
-  padding: 2rem;
+  margin: 2rem 0 6rem 2rem;
+  width: 326px;
+  font-size: var(--p);
+  line-height: 21px;
+  font-family: "Red Hat Mono";
 }
 .move-down {
   background: none;
@@ -33,9 +45,13 @@
 
 /* ABOUT */
 .about {
-  height: 80vh;
+  height: 750px;
   width: 100vw;
-  background-color: #dadada;
+  background-color: var(--main-color);
+}
+
+.mobile-eyes {
+  padding-top: 2rem;
 }
 .mobile-eyes,
 .mobile-hands {
@@ -52,35 +68,57 @@
   display: block;
 }
 .about-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 3rem 1rem;
   margin: 3rem 1rem;
-  background-color: #c4c4c4;
+  background-color: #fff;
+  height: 550px;
 }
-.link-to-lab {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.link-to-lab a,
-.link-to-lab2 a {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  padding: 1rem 0;
-  width: 55%;
+
+.about-box h2 {
+  font-size: var(--h2);
   text-align: center;
+  line-height: 120%;
 }
 
-.lab-links2 {
-  height: 100px;
+.about-box p {
+  margin-top: 1rem;
+  line-height: 120%;
+  letter-spacing: 0.055em;
+  padding: 0 1rem;
+  font-size: 16px;
+  font-family: "Red Hat Mono";
 }
 
+/* LINKS */
+
+.link-to-lab1,
 .link-to-lab2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100px;
 }
+.link-to-lab1 a,
+.link-to-lab2 a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: var(--link);
+}
+
+.link-to-lab1 {
+  background-color: var(--navbar-color);
+}
+
+.link-to-lab2 {
+  background-color: var(--menu-color);
+}
+
+/* TEAM */
 
 .team-img {
   width: 100vw;
@@ -102,31 +140,6 @@
   position: absolute;
   left: 100px;
   top: 2150px;
-}
-
-/* EYES STYLING */
-
-.container {
-  width: 100%;
-}
-.eye {
-  position: relative;
-  display: inline-block;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  background: #ccc;
-}
-.eye:after {
-  /*pupil*/
-  position: absolute;
-  bottom: 17px;
-  right: 10px;
-  width: 10px;
-  height: 10px;
-  background: #000;
-  border-radius: 50%;
-  content: " ";
 }
 
 /* SOCIALS  */
