@@ -21,6 +21,9 @@
   margin-bottom: 4px;
   background-color: black;
 }
+.navbar {
+  /* position: absolute; */
+}
 .menu-slide {
   transform: translateX(-100%);
   transition: transform 1s;
@@ -28,7 +31,7 @@
   padding: 4rem 1rem;
   position: absolute;
   opacity: 0;
-  position: absolute;
+
   /* z-index: 1; */
   /* display: none; */
 }

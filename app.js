@@ -6,6 +6,7 @@ hamburger.addEventListener("click", () => {
 });
 
 menuButtonDesktop.addEventListener("click", () => {
+  menuButtonDesktop.classList.toggle("open-desktop");
   navItems.classList.toggle("open");
 });
 

@@ -14,18 +14,19 @@
 
   .navbar {
     display: flex;
+    position: absolute;
   }
   .menu-slide {
-    width: 50%;
+    /* width: 50%; */
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    transform: translateX(-80%);
-    padding: 0 0;
-    opacity: 1;
+    /* transform: translateX(-100%); */
+    /* padding: 0 0; */
+    /* opacity: 1;
   }
   .open {
-    transform: translateX(300px);
+    /* transform: translateX(300px); */
   }
   .nav-items {
     flex-direction: column;
@@ -35,5 +36,16 @@
   }
   .menu-desktop {
     background-color: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 1s;
+  }
+  .menu-desktop p {
+    transform: rotate(-90deg);
+  }
+  .open-desktop {
+    color: chartreuse;
   }
 }
