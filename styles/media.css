@@ -11,4 +11,29 @@
     flex-direction: column;
     align-items: flex-end;
   }
+
+  .navbar {
+    display: flex;
+  }
+  .menu-slide {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-80%);
+    padding: 0 0;
+    opacity: 1;
+  }
+  .open {
+    transform: translateX(300px);
+  }
+  .nav-items {
+    flex-direction: column;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .menu-desktop {
+    background-color: blue;
+  }
 }

@@ -24,6 +24,8 @@
   padding: 4rem 1rem;
   position: absolute;
   opacity: 0;
+  position: absolute;
+  /* z-index: 1; */
   /* display: none; */
 }
 

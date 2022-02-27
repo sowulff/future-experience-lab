@@ -1,6 +1,11 @@
 const hamburger = document.querySelector(".hamburger-menu");
 const navItems = document.querySelector(".menu-slide");
+const menuButtonDesktop = document.querySelector(".menu-desktop");
 hamburger.addEventListener("click", () => {
+  navItems.classList.toggle("open");
+});
+
+menuButtonDesktop.addEventListener("click", () => {
   navItems.classList.toggle("open");
 });
 
