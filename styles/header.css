@@ -31,7 +31,7 @@
   background-color: var(--navbar-color);
   padding: 4rem 1rem;
   position: absolute;
-  opacity: 0;
+
   height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
@@ -46,7 +46,6 @@
 .open {
   transform: translateX(0);
   position: static;
-  opacity: 1;
 }
 .logo-menu {
   height: 20%;

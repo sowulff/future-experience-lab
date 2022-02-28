@@ -15,9 +15,15 @@
   .navbar {
     display: flex;
     position: absolute;
+    transition: transform 2s;
+  }
+  .navbar-open {
+    transform: translateX(0);
   }
   .menu-slide {
     height: 100vh;
+    width: 200px;
+    transition: none;
   }
   .nav-items {
     padding: 2rem;
@@ -31,16 +37,12 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: transform 1s;
-    /* position: absolute; */
-    /* border-radius: 0 10px 10px 0; */
   }
 
   .menu-desktop p {
     position: relative;
   }
   .open-desktop {
-    transition: transform 1s;
   }
   .move-down:hover {
     cursor: pointer;
