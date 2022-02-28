@@ -20,7 +20,7 @@
     height: 100vh;
   }
   .nav-items {
-    flex-direction: column;
+    padding: 2rem;
   }
   .hamburger-menu {
     display: none;
@@ -32,14 +32,23 @@
     align-items: center;
     cursor: pointer;
     transition: transform 1s;
+    /* position: absolute; */
+    /* border-radius: 0 10px 10px 0; */
   }
+
   .menu-desktop p {
-    transform: rotate(-90deg);
+    position: relative;
   }
   .open-desktop {
-    color: chartreuse;
+    transition: transform 1s;
   }
   .move-down:hover {
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .game {
+    display: none;
   }
 }

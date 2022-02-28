@@ -1,7 +1,7 @@
 /* WELCOME PAGE  */
 
 .welcome-page {
-  height: 90vh;
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -32,8 +32,7 @@
   font-size: var(--h1);
 }
 .welcome-page p {
-  margin: 2rem 0 6rem 2rem;
-  width: 326px;
+  margin: 0 2rem 2rem 2rem;
   font-size: var(--p);
   line-height: 21px;
   font-family: "Red Hat Mono";

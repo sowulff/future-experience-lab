@@ -5,6 +5,7 @@
 }
 
 /* MENU */
+
 .hamburger-menu {
   display: flex;
   flex-direction: column;
@@ -65,28 +66,28 @@
 .nav-item {
   padding: 1rem;
 }
+.menu-desktop {
+  display: none;
+}
+.nav-eye-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* MOVE NAV-EYE */
 
-.ongoing {
-  padding-left: 25%;
-}
-.upcoming {
-  padding-left: 60%;
-}
-.nav-contact {
-  padding-left: 90%;
-}
 /* TEXT-ROLLER  */
 .roller {
   overflow: hidden;
-  position: relative;
+
   background-color: var(--main-color);
   color: #fff;
   white-space: nowrap;
   height: 3rem;
   display: flex;
   align-items: center;
+
+  right: 0;
 }
 
 .roller p {
