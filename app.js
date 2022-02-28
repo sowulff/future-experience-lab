@@ -57,7 +57,7 @@ window.onload = function () {
 
   document.addEventListener("keydown", keyPush);
 
-  setInterval(game, 1000 / 15);
+  setInterval(game, 1000 / 10);
 };
 
 px = py = 10;

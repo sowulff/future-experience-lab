@@ -1,7 +1,7 @@
 /* WELCOME PAGE  */
 
 .welcome-page {
-  height: 100vh;
+  height: 755px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -151,6 +151,7 @@
   align-items: flex-start;
   margin: 3rem 0;
   font-size: var(--link);
+  font-family: "VCR Mono";
 }
 
 .socials h3 {
@@ -169,7 +170,7 @@
 .arrow-right1 {
   position: absolute;
   top: 15px;
-  left: 180px;
+  left: 210px;
 }
 
 .arrow-left {
@@ -312,10 +313,6 @@ footer h4 {
   font-family: "Red Hat Mono";
   font-size: var(--p-small);
   color: var(--main-color);
-}
-
-canvas {
-  width: 100vw;
 }
 
 @media screen and (min-width: 768px) {

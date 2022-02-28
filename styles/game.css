@@ -3,4 +3,43 @@
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  color: var(--white);
+  font-family: "Red Hat Mono";
+}
+
+.game h2 {
+  padding-top: 2rem;
+  font-size: 80px;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.game p {
+  font-size: var(--p);
+  text-align: center;
+}
+
+.game {
+  background-color: var(--black);
+}
+
+canvas {
+  border: 1px solid var(--white);
+  max-width: 1200px;
+  height: 80vh;
+}
+
+.game {
+  display: none;
+}
+
+.img-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 2px solid var(--white); */
 }

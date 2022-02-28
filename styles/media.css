@@ -1,3 +1,18 @@
+@media screen and (min-width: 1024px) {
+  .game {
+    display: block;
+  }
+
+  .social-page {
+    height: 1000px;
+  }
+
+  .team {
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 768px) {
 @media screen and (min-width: 700px) {
   /* MENU  */
   .navbar {
@@ -81,7 +96,4 @@
 }
 
 @media screen and (max-width: 400px) {
-  .game {
-    display: none;
-  }
 }
