@@ -1,4 +1,5 @@
 @media screen and (min-width: 700px) {
+  /* MENU  */
   .navbar {
     display: flex;
     position: absolute;
@@ -37,10 +38,25 @@
     transform: rotate(-90deg);
     font-family: "Red Hat Mono";
   }
-  .open-desktop {
-  }
+
   .move-down:hover {
     cursor: pointer;
+  }
+  /* WELCOME PAGE  */
+  .welcome-text {
+    font-size: 86px;
+    padding: 3rem;
+  }
+  .welcome-page p {
+    padding: 5rem;
+  }
+  .till {
+    font-size: 78px;
+    padding: 2rem;
+  }
+  .welcome-wrapper {
+    display: flex;
+    align-items: center;
   }
 }
 
