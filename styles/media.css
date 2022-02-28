@@ -15,6 +15,12 @@
   .nav-items {
     padding: 2rem;
   }
+  .nav-eye {
+    margin-top: 2rem;
+  }
+  .nav-item:first-child {
+    text-align: end;
+  }
   .hamburger-menu {
     display: none;
   }
@@ -27,12 +33,9 @@
   }
 
   .menu-desktop p {
-<<<<<<< Updated upstream
     position: relative;
-=======
     transform: rotate(-90deg);
     font-family: "Red Hat Mono";
->>>>>>> Stashed changes
   }
   .open-desktop {
   }
