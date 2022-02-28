@@ -5,6 +5,11 @@
   src: url(/fonts/RedHatMono-Regular.woff2);
 }
 
+@font-face {
+  font-family: "VCR Mono";
+  src: url(/fonts/VCR_OSD_MONO.woff2);
+}
+
 /* COLORS */
 :root {
   --navbar-color: #ffadff;

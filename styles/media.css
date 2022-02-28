@@ -1,17 +1,4 @@
 @media screen and (min-width: 700px) {
-  .social-page {
-    height: 100vh;
-  }
-  .socials {
-    width: 50%;
-    height: 70%;
-  }
-  .social-page {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
   .navbar {
     display: flex;
     position: absolute;
@@ -37,7 +24,12 @@
   }
 
   .menu-desktop p {
+<<<<<<< Updated upstream
     position: relative;
+=======
+    transform: rotate(-90deg);
+    font-family: "Red Hat Mono";
+>>>>>>> Stashed changes
   }
   .open-desktop {
     transition: transform 1s;
