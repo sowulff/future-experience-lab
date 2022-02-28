@@ -24,12 +24,9 @@
   }
 
   .menu-desktop p {
-<<<<<<< Updated upstream
     position: relative;
-=======
     transform: rotate(-90deg);
     font-family: "Red Hat Mono";
->>>>>>> Stashed changes
   }
   .open-desktop {
     transition: transform 1s;
