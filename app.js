@@ -1,6 +1,7 @@
 const hamburger = document.querySelector(".hamburger-menu");
 const navItems = document.querySelector(".menu-slide");
 const menuButtonDesktop = document.querySelector(".menu-desktop");
+const navBar = document.querySelector(".navbar");
 hamburger.addEventListener("click", () => {
   navItems.classList.toggle("open");
 });
@@ -8,6 +9,7 @@ hamburger.addEventListener("click", () => {
 menuButtonDesktop.addEventListener("click", () => {
   menuButtonDesktop.classList.toggle("open-desktop");
   navItems.classList.toggle("open");
+  navBar.classList.toggle("navbar-open");
 });
 
 const moveDown = document.querySelector(".move-down");
