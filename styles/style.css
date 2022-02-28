@@ -39,6 +39,9 @@
   line-height: 21px;
   font-family: "Red Hat Mono";
 }
+.till {
+  font-family: "VCR Mono";
+}
 .move-down {
   background: none;
   border: none;
