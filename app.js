@@ -10,6 +10,11 @@ menuButtonDesktop.addEventListener("click", () => {
   navItems.classList.toggle("open");
 });
 
+const moveDown = document.querySelector(".move-down");
+moveDown.addEventListener("click", () => {
+  window.scrollBy({ top: 1000, behavior: "smooth" });
+});
+
 // CHANGE POSITION OF MENU-EYE
 // var loc = window.location.pathname;
 // console.log(loc);
