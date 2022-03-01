@@ -10,6 +10,7 @@
 .game h2 {
   padding-top: 2rem;
   font-size: 80px;
+  font-family: "Minecraft";
 }
 
 .canvas-container {

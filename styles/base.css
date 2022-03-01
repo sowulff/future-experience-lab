@@ -10,6 +10,11 @@
   src: url(/fonts/VCR_OSD_MONO.woff2);
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(/fonts/Minecraft.woff2);
+}
+
 /* COLORS */
 :root {
   --navbar-color: #ffadff;
