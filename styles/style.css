@@ -314,6 +314,9 @@ footer h4 {
   font-size: var(--p-small);
   color: var(--main-color);
 }
+.contact-form {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .arrow-left,
