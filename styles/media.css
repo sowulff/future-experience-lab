@@ -12,7 +12,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
 @media screen and (min-width: 700px) {
   /* MENU  */
   .navbar {
@@ -24,7 +23,7 @@
     transform: translateX(0);
   }
   .menu-slide {
-    height: 100vh;
+    height: 95vh;
     width: 200px;
     transition: none;
   }
@@ -42,7 +41,7 @@
   }
   .menu-desktop {
     background-color: var(--menu-color);
-    height: 100vh;
+    height: 103vh;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -63,7 +62,7 @@
     padding: 3rem;
   }
   .welcome-page p {
-    padding: 5rem;
+    /* padding: 5rem; */
   }
   .till {
     font-size: 78px;
@@ -85,16 +84,13 @@
   .desktop-flex {
     display: flex;
     justify-content: space-evenly;
-   
-  
   }
   .adress {
     margin-top: 0px;
   }
   .contact-form {
     padding: 2rem 1rem;
- display: block;
-   
+    display: block;
   }
   .contact-form h4 {
     text-align: start;
@@ -102,7 +98,6 @@
   form {
     padding-top: 2rem;
     font-family: "Red Hat Mono";
-    
   }
   input {
     width: 100%;
@@ -124,8 +119,8 @@
     font-size: 36px;
   }
   .contact-info {
-   display: flex;
-   align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
   }
   .contact-button {
     display: none;
