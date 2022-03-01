@@ -131,6 +131,12 @@
   align-items: flex-end;
 }
 
+.facebook-desktop,
+.instagram-desktop,
+.tiktok-desktop {
+  display: none;
+}
+
 .arrow-right1 {
   position: absolute;
   top: 15px;
@@ -184,13 +190,8 @@
 
   .instagram {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
-  }
-
-  .facebook,
-  .tiktok {
-    align-items: center;
   }
 }
 
@@ -256,6 +257,54 @@
     top: 260px;
     right: 230px;
   }
+
+  .link-to-lab1 a,
+  .link-to-lab2 a {
+    font-size: 30px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video h2 {
+    font-size: 50px;
+  }
+
+  .video img {
+    width: 70%;
+  }
+
+  .social-page {
+    height: 870px;
+  }
+
+  .socials h2 {
+    font-size: 36px;
+  }
+
+  .all-socials {
+    gap: 2rem;
+  }
+
+  .socials h3 {
+    font-size: var(--p);
+  }
+
+  .team {
+    height: 900px;
+    align-items: center;
+  }
+
+  /* .team h2 {
+
+  } */
+
+  .team-img {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -292,7 +341,49 @@
 
   .about-box h2 {
     font-size: 72px;
-
     right: 220px;
+  }
+
+  .link-to-lab1,
+  .link-to-lab2 {
+    height: 128px;
+  }
+
+  .link-to-lab1 a,
+  .link-to-lab2 a {
+    font-size: 42px;
+  }
+
+  .video h2 {
+    font-size: 72px;
+    padding-top: 2rem;
+  }
+
+  .video img {
+    width: 70%;
+  }
+
+  .social-page {
+    height: 1300px;
+  }
+
+  .socials h2 {
+    font-size: 48px;
+  }
+
+  .facebook-mobile,
+  .instagram-mobile,
+  .tiktok-mobile {
+    display: none;
+  }
+
+  .facebook-desktop,
+  .instagram-desktop,
+  .tiktok-desktop {
+    display: block;
+  }
+
+  .socials h3 {
+    font-size: var(--link);
   }
 }

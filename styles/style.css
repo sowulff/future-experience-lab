@@ -180,39 +180,3 @@ footer h4 {
 .contact-form {
   display: none;
 }
-
-@media screen and (min-width: 768px) {
-  .arrow-left,
-  .arrow-right1,
-  .arrow-right2 {
-    display: none;
-  }
-
-  .socials h2 {
-    text-align: center;
-  }
-
-  .socials {
-    margin-top: 4rem;
-  }
-  .social-page {
-    height: 850px;
-  }
-
-  .all-socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-
-  .instagram {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .facebook,
-  .tiktok {
-    align-items: center;
-  }
-}
