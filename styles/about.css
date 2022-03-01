@@ -1,0 +1,298 @@
+/* ABOUT */
+.about {
+  height: 750px;
+  width: 100vw;
+  background-color: var(--main-color);
+}
+
+.eyes-mobile {
+  padding-top: 2rem;
+}
+.eyes-mobile,
+.mobile-hands {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.eyes-desktop {
+  display: none;
+}
+
+.hands-container {
+  width: 100vw;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.left-hand,
+.right-hand {
+  display: none;
+}
+
+.about-box {
+  padding: 3rem 1rem;
+  margin: 3rem 1rem;
+  background-color: #fff;
+  height: 550px;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-box h2 {
+  font-size: var(--h2);
+  text-align: center;
+  line-height: 120%;
+  font-family: "VCR Mono";
+}
+
+.about-box p {
+  margin-top: 1rem;
+  line-height: 120%;
+  letter-spacing: 0.055em;
+  padding: 0 1rem;
+  font-size: 16px;
+  font-family: "Red Hat Mono";
+}
+
+/* LINKS */
+
+.link-to-lab1,
+.link-to-lab2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.link-to-lab1 a,
+.link-to-lab2 a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: var(--link);
+  font-family: "VCR Mono";
+}
+
+.link-to-lab1 {
+  background-color: var(--navbar-color);
+}
+
+.link-to-lab2 {
+  background-color: var(--menu-color);
+}
+
+/* SOCIALS  */
+
+.video h2 {
+  display: flex;
+  justify-content: center;
+  font-size: var(--h2);
+  margin: 2rem 0;
+  font-family: "VCR Mono";
+}
+
+.video img {
+  width: 100vw;
+}
+
+.social-page {
+  height: 860px;
+}
+
+.socials {
+  margin: 2rem;
+  position: relative;
+}
+
+.socials h2 {
+  align-items: flex-start;
+  margin: 3rem 0;
+  font-size: var(--link);
+  font-family: "VCR Mono";
+}
+
+.socials h3 {
+  font-family: "Red Hat Mono";
+  font-size: var(--p);
+  margin-top: 5px;
+}
+
+.facebook,
+.tiktok {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.arrow-right1 {
+  position: absolute;
+  top: 15px;
+  left: 210px;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 170px;
+  left: 90px;
+}
+
+.arrow-right2 {
+  position: absolute;
+  top: 310px;
+  left: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    height: 650px;
+  }
+  .about-box {
+    margin: 3rem 5rem;
+    padding: 3rem;
+    height: 400px;
+  }
+
+  .arrow-left,
+  .arrow-right1,
+  .arrow-right2 {
+    display: none;
+  }
+
+  .socials h2 {
+    text-align: center;
+  }
+
+  .socials {
+    margin-top: 4rem;
+  }
+  .social-page {
+    height: 850px;
+  }
+
+  .all-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .instagram {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .facebook,
+  .tiktok {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    position: relative;
+    height: 790px;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    padding-left: 50%;
+  }
+
+  .about-color {
+    color: var(--menu-color);
+  }
+
+  .about-box {
+    width: 636px;
+    height: 500px;
+    padding: 2rem;
+  }
+
+  .about-text {
+    padding: 5rem;
+  }
+
+  .eyes-mobile {
+    display: none;
+  }
+
+  .eyes-desktop {
+    display: block;
+    padding-top: 2rem;
+  }
+
+  .mobile-hands {
+    display: none;
+  }
+
+  .left-hand,
+  .right-hand {
+    display: block;
+    position: absolute;
+  }
+
+  .left-hand {
+    top: 390px;
+    right: 670px;
+  }
+
+  .right-hand {
+    top: 490px;
+    right: 50px;
+  }
+
+  .about-box h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 260px;
+    right: 230px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    height: 790px;
+  }
+  .about-container {
+    padding-left: 55%;
+  }
+
+  .about-box {
+    width: 800px;
+    height: 450px;
+  }
+
+  .about-text {
+    padding: 7rem 5rem;
+    font-size: var(--p);
+  }
+
+  .eyes-desktop {
+    padding-top: 4rem;
+  }
+
+  .left-hand {
+    top: 390px;
+    right: 890px;
+  }
+
+  .right-hand {
+    top: 490px;
+    right: 90px;
+  }
+
+  .about-box h2 {
+    font-size: 72px;
+
+    right: 220px;
+  }
+}
