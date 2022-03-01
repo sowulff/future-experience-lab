@@ -14,6 +14,7 @@
 
 @media screen and (min-width: 700px) {
   /* MENU  */
+
   .navbar {
     display: flex;
     position: absolute;
@@ -57,6 +58,9 @@
     cursor: pointer;
   }
   /* WELCOME PAGE  */
+  .welcome-page {
+    height: 95vh;
+  }
   .welcome-text {
     font-size: 86px;
     padding: 3rem;
@@ -73,7 +77,11 @@
     align-items: center;
   }
 
-  /* FORM  */
+  /* FORM footer  */
+
+  footer {
+    height: 633px;
+  }
   .logo-section {
     display: none;
   }
