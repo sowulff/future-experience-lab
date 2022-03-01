@@ -1,7 +1,7 @@
 /* WELCOME PAGE  */
 
 .welcome-page {
-  height: 755px;
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -314,6 +314,9 @@ footer h4 {
   font-family: "Red Hat Mono";
   font-size: var(--p-small);
   color: var(--main-color);
+}
+.contact-form {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {

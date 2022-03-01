@@ -14,24 +14,8 @@ menuButtonDesktop.addEventListener("click", () => {
 
 const moveDown = document.querySelector(".move-down");
 moveDown.addEventListener("click", () => {
-  window.scrollBy({ top: 1000, behavior: "smooth" });
+  window.scrollTo({ top: 620, behavior: "smooth" });
 });
-
-// CHANGE POSITION OF MENU-EYE
-// var loc = window.location.pathname;
-// console.log(loc);
-// var navEye = document.querySelector(".nav-eye");
-
-// if (loc.indexOf("ongoing") > -1) {
-//   navEye.classList.add("ongoing");
-// }
-// if (loc.indexOf("upcoming") > -1) {
-//   navEye.classList.add("upcoming");
-// }
-// #contact will not show in url so its not working
-// if (loc.indexOf("#contact") > -1) {
-//   navEye.classList.add("nav-contact");
-// }
 
 // GET EYES TO ROLL
 
