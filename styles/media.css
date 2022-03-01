@@ -24,12 +24,12 @@
     transform: translateX(0);
   }
   .menu-slide {
-    height: 95vh;
+    height: 103vh;
     width: 200px;
     transition: none;
   }
   .nav-items {
-    padding: 2rem;
+    padding: 2rem 0rem;
   }
   .nav-eye {
     margin-top: 2rem;
@@ -52,8 +52,15 @@
     position: relative;
     transform: rotate(-90deg);
     font-family: "Red Hat Mono";
+    font-size: var(--links);
   }
 
+  .links {
+    display: flex;
+  }
+  .links div {
+    width: 50%;
+  }
   .move-down:hover {
     cursor: pointer;
   }
