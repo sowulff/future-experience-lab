@@ -26,6 +26,9 @@
   .hamburger-menu {
     display: none;
   }
+  .logo-menu {
+    width: 95%;
+  }
   .menu-desktop {
     background-color: var(--menu-color);
     height: 100vh;
