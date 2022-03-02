@@ -27,7 +27,7 @@
 }
 .menu-slide {
   transform: translateX(-100%);
-  transition: transform 1s;
+  /* transition: transform 1s; */
   background-color: var(--navbar-color);
   padding: 4rem 1rem;
   position: absolute;
@@ -48,6 +48,7 @@
 .open {
   transform: translateX(0);
   position: static;
+  transition: transform 1s;
 }
 .logo-menu {
   height: 20%;
