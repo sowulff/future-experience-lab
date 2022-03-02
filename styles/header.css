@@ -31,6 +31,8 @@
   background-color: var(--navbar-color);
   padding: 4rem 1rem;
   position: absolute;
+  font-family: "Red Hat Mono";
+  font-weight: 700;
 
   height: calc(100vh - 4rem);
   display: flex;
@@ -60,7 +62,7 @@
 .nav-items a {
   text-decoration: none;
   color: black;
-  font-size: 12px;
+  font-size: var(--links);
   font-family: "Red Hat Mono";
 }
 .nav-item {
@@ -83,7 +85,7 @@
   background-color: var(--main-color);
   color: #fff;
   white-space: nowrap;
-  height: 3rem;
+  height: 56px;
   display: flex;
   align-items: center;
 
@@ -93,6 +95,11 @@
 .roller p {
   transform: translateX(100%);
   animation: text-roller 15s linear infinite;
+  font-size: var(--link);
+  font-family: "VCR Mono";
+}
+.roller p span {
+  color: var(--navbar-color);
 }
 
 @keyframes text-roller {
