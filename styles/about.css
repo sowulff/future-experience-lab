@@ -313,7 +313,7 @@
 
   .team-img {
     width: 40%;
-    z-index: 1;
+
     transition: 2s ease-in;
   }
 
@@ -327,7 +327,6 @@
     top: 570px;
     right: 60px;
     width: 180px;
-    z-index: 2;
   }
 }
 
@@ -409,5 +408,19 @@
 
   .socials h3 {
     font-size: var(--link);
+  }
+
+  .team {
+    height: 1300px;
+  }
+
+  .team h2 {
+    font-size: 72px;
+  }
+
+  .zoom {
+    top: 850px;
+    right: 60px;
+    width: 290px;
   }
 }
