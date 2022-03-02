@@ -193,6 +193,15 @@
     align-items: flex-end;
     flex-direction: column;
   }
+
+  .team {
+    align-items: center;
+    position: relative;
+  }
+
+  .team-img {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -295,15 +304,30 @@
 
   .team {
     height: 900px;
-    align-items: center;
   }
 
-  /* .team h2 {
-
-  } */
+  .team h2 {
+    font-size: 60px;
+    margin-bottom: 4rem;
+  }
 
   .team-img {
     width: 40%;
+    z-index: 1;
+    transition: 2s ease-in;
+  }
+
+  .team-img:hover {
+    transform: scale(2);
+  }
+
+  .zoom {
+    display: block;
+    position: absolute;
+    top: 570px;
+    right: 60px;
+    width: 180px;
+    z-index: 2;
   }
 }
 

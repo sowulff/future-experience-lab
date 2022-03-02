@@ -49,11 +49,7 @@
   transform: translateX(0);
   position: static;
 }
-.logo-menu {
-  height: 20%;
-  width: 50%;
-  background-color: white;
-}
+
 .nav-items {
   justify-content: space-between;
   list-style: none;

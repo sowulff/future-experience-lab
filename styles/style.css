@@ -71,6 +71,10 @@
   font-family: "VCR Mono";
 }
 
+.zoom {
+  display: none;
+}
+
 /* FOOTER */
 
 footer {
@@ -97,14 +101,6 @@ footer h4 {
   justify-content: center;
 }
 .logo-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 200px;
-  background-color: var(--white);
-  width: 150px;
-  height: 190px;
   margin-top: 2rem;
 }
 
