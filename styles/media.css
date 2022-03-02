@@ -56,7 +56,7 @@
   /* WELCOME PAGE  */
   .welcome-page {
     height: calc(100vh - 56px);
-    padding: 2rem 5rem;
+    padding-left: 10rem;
     display: flex;
     align-items: flex-start;
   }
@@ -65,7 +65,9 @@
     padding: 3rem;
   }
   .welcome-page p {
-    /* padding: 5rem; */
+    padding: 1rem;
+    font-size: var(--p);
+    font-weight: bolder;
   }
   .till {
     font-size: 78px;
