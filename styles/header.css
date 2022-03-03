@@ -49,7 +49,7 @@
   transition: transform 1s;
 }
 .logo-menu {
-  width: 40%;
+  width: 150px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -179,7 +179,7 @@
   }
   .menu-slide {
     height: 100vh;
-    width: 200px;
+    width: 250px;
     transition: none;
   }
   .nav-items {
