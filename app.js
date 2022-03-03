@@ -17,23 +17,6 @@ moveDown.addEventListener("click", () => {
   window.scrollTo({ top: 620, behavior: "smooth" });
 });
 
-// GET EYES TO ROLL
-
-// $(".move-area").mousemove(function (event) {
-//   var eye = $(".eye");
-//   console.log("eye", eye);
-//   var x = eye.offset().left + eye.width() / 2;
-//   var y = eye.offset().top + eye.height() / 2;
-//   var rad = Math.atan2(event.pageX - x, event.pageY - y);
-//   var rot = rad * (180 / Math.PI) * -1 + 180;
-//   eye.css({
-//     "-webkit-transform": "rotate(" + rot + "deg)",
-//     "-moz-transform": "rotate(" + rot + "deg)",
-//     "-ms-transform": "rotate(" + rot + "deg)",
-//     transform: "rotate(" + rot + "deg)",
-//   });
-// });
-
 window.onload = function () {
   canv = document.getElementById("gc");
 
@@ -81,7 +64,7 @@ function game() {
 
   ctx.fillRect(0, 0, canv.width, canv.height);
 
-  ctx.fillStyle = "lime";
+  ctx.fillStyle = "#FFADFF";
 
   for (var i = 0; i < trail.length; i++) {
     ctx.fillRect(trail[i].x * gs, trail[i].y * gs, gs - 2, gs - 2);
@@ -105,7 +88,7 @@ function game() {
     ay = Math.floor(Math.random() * tc);
   }
 
-  ctx.fillStyle = "red";
+  ctx.fillStyle = "#DEFA77";
 
   ctx.fillRect(ax * gs, ay * gs, gs - 2, gs - 2);
 }
