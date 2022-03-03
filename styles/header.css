@@ -237,7 +237,18 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .welcome-text {
-    font-size: 110px;
+  .welcome-text,
+  .till {
+    font-size: 120px;
+    font-weight: lighter;
+  }
+  .welcome-page {
+    padding: 1rem 20rem;
+  }
+  .splash-container img {
+    width: 400px;
+  }
+  .picture-text {
+    font-size: 122px;
   }
 }
