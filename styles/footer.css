@@ -145,4 +145,13 @@ footer h4 {
   .contact-button {
     display: none;
   }
+
+  .contact-info {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .form-text {
+    padding-top: 1rem;
+  }
 }
