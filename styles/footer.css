@@ -1,3 +1,83 @@
+/* WELCOME PAGE  */
+
+.welcome-page {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.hero {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.splash-container {
+  position: relative;
+  text-align: center;
+}
+
+.picture-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: aliceblue;
+  position: absolute;
+  font-family: "Minecraft";
+}
+
+.welcome-text {
+  font-size: var(--h1);
+  font-family: "VCR Mono";
+  padding: 0 4rem 1rem 0;
+}
+.welcome-page p {
+  margin: 1rem;
+  font-size: var(--p-small);
+  font-weight: 800;
+  line-height: 21px;
+  font-family: "Red Hat Mono";
+}
+.till {
+  font-family: "VCR Mono";
+  font-size: var(--h1);
+  font-weight: lighter;
+}
+.move-down {
+  background: none;
+  border: none;
+}
+
+/* TEAM */
+
+.team {
+  height: 678px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.team h2 {
+  display: flex;
+  justify-content: center;
+  font-size: var(--h2);
+  color: var(--menu-color);
+  font-family: "VCR Mono";
+}
+
+.zoom {
+  display: none;
+}
+
 /* FOOTER */
 
 footer {

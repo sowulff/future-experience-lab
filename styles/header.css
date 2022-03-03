@@ -48,6 +48,15 @@
   position: static;
   transition: transform 1s;
 }
+.logo-menu {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.logo-menu img {
+  width: 95%;
+}
 
 .nav-items {
   justify-content: space-between;
